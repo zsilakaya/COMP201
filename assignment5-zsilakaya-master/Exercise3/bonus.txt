@@ -1,0 +1,1 @@
+We should use library routines that limit string lengths.For example we should use fgets instead of gets. We should use strncpy instead of strcpy.Or if we are going to use scanf method we shold use it with ' %ns' where n is a suitable integer. 

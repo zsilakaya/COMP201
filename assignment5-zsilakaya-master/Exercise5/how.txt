@@ -1,0 +1,1 @@
+When we use struct in 5-2 local_secret_pin and check_pin located after username in memory.Therefore we could exploit the program when we exceed the buffersize.

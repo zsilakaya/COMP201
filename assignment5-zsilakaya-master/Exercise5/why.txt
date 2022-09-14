@@ -1,0 +1,1 @@
+Structs are stored in contiguous memory. So in 5-2, when we exceed the buffer size we overwrite the memories of check_pin and local_Secret_pin.But in 5-3 we did not use structs.We do not know where exactly they are located in memory.Therefore we could not overwrite their memories by giving more than 100 sized username input.
